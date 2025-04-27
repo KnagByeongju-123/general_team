@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영업관리팀 체크시트 종합</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .link-card {
+      display: block;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+      width: 66.666%;
+      max-width: 600px;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: inherit;
+    }
+    .link-card:hover {
+      transform: scale(1.02);
+    }
+    .link-card .title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #007BFF;
+    }
+    .link-card.green .title {
+      color: #2e7d32;
+    }
+    .link-card .description {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #555;
+    }
+    .no-link .title {
+      color: #555;
+    }
+    .no-link {
+      cursor: default;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+      .link-card {
+        width: 100% !important;
+        max-width: none;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📋 영업관리팀 체크시트 종합</h1>
+
+    <a href="https://script.google.com/macros/s/AKfycbziCUjFqzHqxNXGoVVyyfYci9uyv_3tKC63hr4stXhR1fn4Ug-Cuq539FiEkCDpTa1qkA/exec" target="_blank" class="link-card">
+      <div class="title">1. 세척기 체크시트</div>
+      <p class="description">주요 관리표인트 체크용</p>
+    </a>
+
+    <a href="https://docs.google.com/spreadsheets/d/1XxfeK-Qa0tAGBhvwxvBUokvHA5bIg5G_xoW6DjOE2BU/edit?gid=0#gid=0" target="_blank" class="link-card green">
+      <div class="title">1-1. 세척기 체크시트 이력조회</div>
+      <p class="description">체크이력을 조회합니다.</p>
+    </a>
+
+    <a href="링크주소" target="_blank" class="link-card">
+      <div class="title">2. 차량관리 체크시트</div>
+      <p class="description">업무용 차량의 운행기록 및 정기점검 내용기록</p>
+    </a>
+
+    <a href="링크주소" target="_blank" class="link-card green">
+      <div class="title">2-1. 차량관리 체크시트 이력조회</div>
+      <p class="description">체크이력을 조회합니다.</p>
+    </a>
+
+ 
+
+  </div>
+</body>
+</html>
